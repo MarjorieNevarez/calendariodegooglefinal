@@ -55,7 +55,7 @@
             <item
                 android:id="@+id/menu_opcion_7"
                 android:icon="@drawable/sincronizar"
-                android:title="Sicronizar"/>
+                android:title="Sincronizar"/>
 
         </menu>
     </item>
