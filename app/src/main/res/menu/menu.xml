@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:icon="@drawable/fecha"
+            android:title="Año"/>
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/mes"
+            android:title="Mes"/>
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:icon="@drawable/semana"
+            android:title="Semana"/>
+        <item
+            android:id="@+id/menu_seccion_4"
+            android:icon="@drawable/dia"
+            android:title="Dia"/>
+        <item
+            android:id="@+id/menu_seccion_5"
+            android:icon="@drawable/notificacion"
+            android:title="Notificación"/>
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@drawable/telefono"
+                android:title="Mi telefono"/>
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:icon="@drawable/cuenta"
+                android:title="Samsung account"/>
+
+            <item
+                android:id="@+id/menu_opcion_5"
+                android:icon="@drawable/aplicaciones"
+                android:title="Aplicaciones"/>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/navigation_subheader2"
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_6"
+                android:icon="@drawable/papelera"
+                android:title="Papelera"/>
+            <item
+                android:id="@+id/menu_opcion_7"
+                android:icon="@drawable/sincronizar"
+                android:title="Sicronizar"/>
+
+        </menu>
+    </item>
+</menu>
